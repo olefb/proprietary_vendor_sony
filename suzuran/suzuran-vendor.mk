@@ -138,9 +138,11 @@ PRODUCT_COPY_FILES += \
     vendor/sony/suzuran/proprietary/lib/camera/libexcal_stream_ctrl_plugin.so:system/lib/camera/libexcal_stream_ctrl_plugin.so \
     vendor/sony/suzuran/proprietary/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so \
     vendor/sony/suzuran/proprietary/lib/hw/camera.qcom.so:system/lib/hw/camera.qcom.so \
+    vendor/sony/suzuran/proprietary/lib/hw/fingerprint.msm8994.so:system/lib/hw/fingerprint.msm8994.so \
     vendor/sony/suzuran/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/sony/suzuran/proprietary/lib/libMiscTaAccessor.so:system/lib/libMiscTaAccessor.so \
     vendor/sony/suzuran/proprietary/lib/lib_asb_tee.so:system/lib/lib_asb_tee.so \
+    vendor/sony/suzuran/proprietary/lib/lib_fpc_tac_shared.so:system/lib/lib_fpc_tac_shared.so \
     vendor/sony/suzuran/proprietary/lib/libcacao_client.so:system/lib/libcacao_client.so \
     vendor/sony/suzuran/proprietary/lib/libcacao_common.so:system/lib/libcacao_common.so \
     vendor/sony/suzuran/proprietary/lib/libcacao_imgproc.so:system/lib/libcacao_imgproc.so \
@@ -150,6 +152,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/suzuran/proprietary/lib/libcamera_clientsemc.so:system/lib/libcamera_clientsemc.so \
     vendor/sony/suzuran/proprietary/lib/libcameralight.so:system/lib/libcameralight.so \
     vendor/sony/suzuran/proprietary/lib/libcammw.so:system/lib/libcammw.so \
+    vendor/sony/suzuran/proprietary/lib/libcom_fingerprints_service.so:system/lib/libcom_fingerprints_service.so \
     vendor/sony/suzuran/proprietary/lib/libcredential-manager-service.so:system/lib/libcredential-manager-service.so \
     vendor/sony/suzuran/proprietary/lib/libdevice_security.so:system/lib/libdevice_security.so \
     vendor/sony/suzuran/proprietary/lib/libexcal_core.so:system/lib/libexcal_core.so \
@@ -204,14 +207,17 @@ PRODUCT_COPY_FILES += \
     vendor/sony/suzuran/proprietary/lib/libtpm.so:system/lib/libtpm.so \
     vendor/sony/suzuran/proprietary/lib/soundfx/libsonypostprocbundle.so:system/lib/soundfx/libsonypostprocbundle.so \
     vendor/sony/suzuran/proprietary/lib/soundfx/libsonysweffect.so:system/lib/soundfx/libsonysweffect.so \
+    vendor/sony/suzuran/proprietary/lib64/hw/fingerprint.msm8994.so:system/lib64/hw/fingerprint.msm8994.so \
     vendor/sony/suzuran/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
     vendor/sony/suzuran/proprietary/lib64/hw/libpn547_fw.so:system/lib64/hw/libpn547_fw.so \
     vendor/sony/suzuran/proprietary/lib64/lib-preload64.so:system/lib64/lib-preload64.so \
     vendor/sony/suzuran/proprietary/lib64/libMiscTaAccessor.so:system/lib64/libMiscTaAccessor.so \
     vendor/sony/suzuran/proprietary/lib64/lib_asb_tee.so:system/lib64/lib_asb_tee.so \
+    vendor/sony/suzuran/proprietary/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
     vendor/sony/suzuran/proprietary/lib64/lib_get_secure_mode.so:system/lib64/lib_get_secure_mode.so \
     vendor/sony/suzuran/proprietary/lib64/libcamera_clientsemc.so:system/lib64/libcamera_clientsemc.so \
     vendor/sony/suzuran/proprietary/lib64/libcameralight.so:system/lib64/libcameralight.so \
+    vendor/sony/suzuran/proprietary/lib64/libcom_fingerprints_service.so:system/lib64/libcom_fingerprints_service.so \
     vendor/sony/suzuran/proprietary/lib64/libcredential-manager-service.so:system/lib64/libcredential-manager-service.so \
     vendor/sony/suzuran/proprietary/lib64/libdevice_security.so:system/lib64/libdevice_security.so \
     vendor/sony/suzuran/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
@@ -506,6 +512,11 @@ PRODUCT_COPY_FILES += \
     vendor/sony/suzuran/proprietary/vendor/etc/perf-profile3.conf:system/vendor/etc/perf-profile3.conf \
     vendor/sony/suzuran/proprietary/vendor/etc/perf-profile4.conf:system/vendor/etc/perf-profile4.conf \
     vendor/sony/suzuran/proprietary/vendor/etc/perf-profile5.conf:system/vendor/etc/perf-profile5.conf \
+    vendor/sony/suzuran/proprietary/vendor/firmware/tzfingerprint.b00:system/vendor/firmware/tzfingerprint.b00 \
+    vendor/sony/suzuran/proprietary/vendor/firmware/tzfingerprint.b01:system/vendor/firmware/tzfingerprint.b01 \
+    vendor/sony/suzuran/proprietary/vendor/firmware/tzfingerprint.b02:system/vendor/firmware/tzfingerprint.b02 \
+    vendor/sony/suzuran/proprietary/vendor/firmware/tzfingerprint.b03:system/vendor/firmware/tzfingerprint.b03 \
+    vendor/sony/suzuran/proprietary/vendor/firmware/tzfingerprint.mdt:system/vendor/firmware/tzfingerprint.mdt \
     vendor/sony/suzuran/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/sony/suzuran/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/sony/suzuran/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
